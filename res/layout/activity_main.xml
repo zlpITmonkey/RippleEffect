@@ -1,0 +1,25 @@
+<RelativeLayout
+    android:id="@+id/activity_demo"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context="com.didikee.moocripple.DemoActivity">
+
+    <com.example.rippleeffect.RippleButton
+        android:id="@+id/btn_putong"
+        style="@style/btn_szxy"
+        android:text="线性涟漪"
+        android:background="#ffffff"
+        android:gravity="center"
+        />
+
+    <com.example.rippleeffect.RippleButton2
+        style="@style/btn_syx"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/btn_putong"
+        android:text="移动涟漪" />
+
+</RelativeLayout>
